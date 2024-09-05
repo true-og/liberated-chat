@@ -1,5 +1,5 @@
 name: liberated-chat
-version: ${pluginVersion}
+version: ${version}
 description: "Probably the simplest minecraft plugin that disables chat reporting."
 authors: ["Wojciech Paruch <teamaster69@proton.me>", "Timongcraft"]
 website: "https://modrinth.com/plugin/liberated-chat"

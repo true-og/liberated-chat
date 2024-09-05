@@ -29,9 +29,8 @@ java {
 jar.from("LICENSE.txt")
 
 processResources {
-	inputs.property("pluginVersion", pluginVersion)
 	filesMatching("plugin.yml") {
-		expand "pluginVersion": pluginVersion
+		expand "version": pluginVersion
 	}
 }
 
